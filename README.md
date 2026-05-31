@@ -74,7 +74,7 @@ Após instalar:
 
 ---
 
-🛢️ 4. Criando o Banco de Dados
+# 🗄️ 4. Criando o Banco de Dados
 
 Com o MySQL iniciado:
 
@@ -86,7 +86,7 @@ http://localhost/phpmyadmin
 
 meubanco
 
-### 📥 4.1 Importando a Estrutura do Banco
+## 📥 4.1 Importando a Estrutura do Banco
 
 Após criar o banco:
 
