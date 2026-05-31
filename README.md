@@ -74,6 +74,44 @@ Após instalar:
 
 ---
 
+🛢️ 4. Criando o Banco de Dados
+
+Com o MySQL iniciado:
+
+1. Acesse:
+
+http://localhost/phpmyadmin
+
+2. Clique em **Novo** e crie um banco chamado:
+
+meubanco
+
+### 📥 4.1 Importando a Estrutura do Banco
+
+Após criar o banco:
+
+1. Clique no banco **meubanco**.
+2. Acesse a aba **Importar**.
+3. Clique em **Escolher arquivo**.
+4. Selecione o arquivo SQL disponibilizado no repositório do projeto.
+5. Clique em **Executar**.
+
+O arquivo SQL criará automaticamente todas as tabelas e estruturas necessárias para o funcionamento do sistema SmartVaga.
+
+Após a importação, verifique se as tabelas foram criadas corretamente dentro do banco **meubanco**.
+
+⚠️ Importante:
+
+Sem importar o arquivo SQL, o sistema apresentará erros como:
+
+* Unknown database 'meubanco'
+* Table doesn't exist
+* ER_NO_SUCH_TABLE
+
+Portanto, a importação do banco de dados é obrigatória antes de iniciar o servidor.
+
+---
+
 # 💻 5. Abrindo o Projeto no VS Code
 
 Abra o Visual Studio Code.
